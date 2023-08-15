@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Dhaundiyal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moon+Dance&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moon+Dance&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moon+Dance&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 63);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(79, 79, 252);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(40, 255, 72);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 31px 0px;
+            align-items: center;
+        }
+
+        .first-section>div {
+            width: 30%;
+        }
+
+        .left-section {
+            font-size: 3rem;
+            margin: 86px 0;
+        }
+
+        .right-section img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+            font-family: 'Great Vibes', cursive;
+            font-family: 'Moon Dance', cursive;
+            font-family: 'Roboto', sans-serif;
+        }
+        #element{
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Shubham's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hello,My name is <span class="purple">Shubham Dhaundiyal</span>
+                <div>& I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="/images/bg.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Freelancer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -58,6 +58,12 @@
             color: rgb(40, 255, 72);
         }
 
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
         .left {
             font-size: 1.5rem;
         }
@@ -92,6 +98,54 @@
         #element{
             color: aqua;
         }
+        .second-section{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .second-section h1{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+        .second-section .box{
+           background: white;
+           width: 75vw;
+           height: 2px;
+           margin:56px;
+           display: flex;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .second-section .vertical{
+            height: 93px;
+            width:1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: rgb(79, 79, 252);
+            height: 300px;
+        }
+        .footer{
+            display: flex;
+            margin: 123px 122px;
+        }
     </style>
 </head>
 
@@ -123,7 +177,68 @@
                 <img src="/images/bg.png" alt="">
             </div>
         </section>
+        <hr>
+        <section class="second-section">
+            <h1>Proficiency/Technical Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/images/developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam sed commodi. Unde, architecto. Nesciunt a, dolorum velit asperiores vel natus officia! Quo.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/developer.png" alt="">
+                    <div class="vertical-title">
+                       CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam sed commodi. Unde, architecto. Nesciunt a, dolorum velit asperiores vel natus officia! Quo.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/developer.png" alt="">
+                    <div class="vertical-title">
+                       Javascript
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam sed commodi. Unde, architecto. Nesciunt a, dolorum velit asperiores vel natus officia! Quo.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/developer.png" alt="">
+                    <div class="vertical-title">
+                       Bootstrap
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam sed commodi. Unde, architecto. Nesciunt a, dolorum velit asperiores vel natus officia! Quo.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/images/developer.png" alt="">
+                    <div class="vertical-title">
+                       Jquerry
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam sed commodi. Unde, architecto. Nesciunt a, dolorum velit asperiores vel natus officia! Quo.
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shubham's Portfolio</h3>
+            </div>
+            <div class="footr-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
